@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	<!-- Wood Generator -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "WoodFiredGenerator"]/comps/li[3]/fuelCapacity</xpath>
+		<value>
+			<fuelCapacity>150.0</fuelCapacity>
+		</value>
+	</Operation>
+	
+	<!-- Chemfuel Generator -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]/comps/li[3]/fuelCapacity</xpath>
+		<value>
+			<fuelCapacity>50.0</fuelCapacity>
+		</value>
+	</Operation>
+</Patch>
